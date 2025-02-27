@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  final String _apiKey = "AIzaSyDj27yFA_YW0S-_8NzbIEyTZO15UhK1xo8";  // Replace with your actual Gemini API key
+  final String _apiKey = "Api key";  // Replace with your actual Gemini API key
   final String _geminiApiUrl = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"; // Updated model
 
   // Function to analyze the image using Gemini API
